@@ -1,0 +1,89 @@
+modules:
+
+accepts
+array-flatten
+body-parser
+bytes
+call-bind
+content-disposition
+content-type
+cookie
+cookie-signature
+debug
+denque
+depd
+destroy
+ee-first
+encodeurl
+escape-html
+etag
+express
+finalhandler
+forwarded
+fresh
+function-bind
+generate-function
+get-intrinsic
+has
+has-symbols
+http-errors
+iconv-lite
+inherits
+ipaddr.js
+is-property
+long
+lru-cache
+media-typer
+merge-descriptors
+methods
+mime
+mime-db
+mime-types
+ms
+mysql2
+mysql2/node_modules/iconv-lite
+named-placeholders
+negotiator
+object-inspect
+on-finished
+parseurl
+path-to-regexp
+proxy-addr
+qs
+range-parser
+raw-body
+safe-buffer
+safer-buffer
+send
+send/node_modules/ms
+seq-queue
+serve-static
+setprototypeof
+side-channel
+sqlstring
+statuses
+toidentifier
+type-is
+unpipe
+utils-merge
+vary
+
+CRUD paths:
+// Get All customers
+/customers
+// Create new Customer
+/CreateNewCustomer
+// get customer by name
+/FindCustomersByName
+// Update Customer
+/update
+// Delete a customer
+/removeCustomer
+// Delete all customers
+/removeAll
+
+Tables creation syntax:
+CREATE TABLE customers (
+    name varchar(255),
+    email varchar(255)
+);
